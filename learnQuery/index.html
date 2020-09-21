@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>learnQuery</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *,
+      *::after,
+      *::before {
+        box-sizing: border-box;
+      }
+
+      body {
+        color: #333333;
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .monospace {
+        font-family: 'Roboto Mono', monospace;
+      }
+
+      section {
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      article {
+        display: flex;
+      }
+
+      main {
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      article a {
+        min-height: 180px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.2);
+        transition: box-shadow 0.3s;
+        color: #333333;
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+        min-width: 300px;
+      }
+
+      article a:hover {
+        box-shadow: 6px 6px 7px 1px rgba(0, 0, 0, 0.2);
+      }
+
+      article a div {
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        color: #cccccc;
+        flex: 1;
+      }
+
+      .title {
+        flex: 0;
+        padding-bottom: 10px;
+        color: #333333;
+        font-family: 'Roboto', sans-serif;
+        vertical-align: bottom;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Hello and welcome to <span class="monospace">{learn:Query}</span></h1>
+      <p>Please read the README.md for instructions for use</p>
+      <section>
+        <article>
+          <a href="/00.example/runner.html">
+            <div>Assigment 0</div>
+            <div class="title">Example</div>
+          </a>
+        </article>
+        <article>
+          <a href="/01.dom_selector/runner.html">
+            <div>Assigment 1</div>
+            <div class="title">Simple Selector function</div>
+          </a>
+        </article>
+        <article>
+          <a href="/02.CSS_manipulation/runner.html">
+            <div>Assigment 2</div>
+            <div class="title">CSS manipulation</div>
+          </a>
+        </article>
+        <article>
+          <a href="/03.CSS_class_manipulation/runner.html">
+            <div>Assigment 3</div>
+            <div class="title">CSS class manipulation</div>
+          </a>
+        </article>
+        <article>
+          <a href="/04.DOM_manipulation/runner.html">
+            <div>Assigment 4</div>
+            <div class="title">DOM manipulation</div>
+          </a>
+        </article>
+        <article>
+          <a href="/05.AJAX_Request/runner.html">
+            <div>Assigment 5</div>
+            <div class="title">Ajax request function</div>
+          </a>
+        </article>
+        <article>
+          <a href="/06.event_listeners/runner.html">
+            <div>Assigment 6</div>
+            <div class="title">Event Listeners</div>
+          </a>
+        </article>
+        <article>
+          <a href="/07.learnQuery/runner.html">
+            <div>Assigment 7</div>
+            <div class="title">Make learnQuery!</div>
+          </a>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
