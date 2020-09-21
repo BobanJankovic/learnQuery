@@ -23,11 +23,17 @@ From here you can access all the test runners from one place.
 Next you should open the project folder (or just the learnQuery folder) in the code editor.
 
 In the learnQuery folder you will find the assignments.
+
 For each task there is a spec and src folder. The runner.html is the test runner you can get to by going to the localhost server.
+
 Before starting any task first read the Readme section for it, then open the files in the spec and src folders.
+
 You can use the spec file to see the test criteria your code needs to pass. DO NOT MODIFY THIS FILE.
+
 Everything you code goes in the src folder .js file. Keep all your code in the `// code goes here` function.
+
 The task is considered complete when all the tests are passing.
+
 Every task should be completed in order. Do not skip ahead, as tasks build upon one another
 
 If you are stuck, either because you don't understand what is asked of you or how to do it, please ask your mentor to help you.
