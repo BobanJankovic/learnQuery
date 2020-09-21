@@ -1,35 +1,87 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Jasmine Spec Runner v2.0.0</title>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Jasmine Spec Runner v2.0.0</title>
 
-  <link rel="shortcut icon" type="image/png" href="../lib/jasmine-2.1.3/jasmine_favicon.png">
-  <link rel="stylesheet" type="text/css" href="../lib/jasmine-2.1.3/jasmine.css">
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="../lib/jasmine-2.1.3/jasmine_favicon.png"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../lib/jasmine-2.1.3/jasmine.css"
+    />
 
-  <script type="text/javascript" src="../lib/jasmine-2.1.3/jasmine.js"></script>
-  <script type="text/javascript" src="../lib/jasmine-2.1.3/jasmine-html.js"></script>
-  <script type="text/javascript" src="../lib/jasmine-2.1.3/boot.js"></script>
-  <script type="text/javascript" src="../lib/jquery-2.1.3.js"></script>
-  <script type="text/javascript" src="../lib/jasmine-fixture.js"></script>
-  <script type="text/javascript" src="../lib/mock-ajax.js"></script>
+    <script
+      type="text/javascript"
+      src="../lib/jasmine-2.1.3/jasmine.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../lib/jasmine-2.1.3/jasmine-html.js"
+    ></script>
+    <script type="text/javascript" src="../lib/jasmine-2.1.3/boot.js"></script>
+    <script type="text/javascript" src="../lib/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="../lib/jasmine-fixture.js"></script>
+    <script type="text/javascript" src="../lib/mock-ajax.js"></script>
 
-  <!-- include previous source files here -->
-  <script type="text/javascript" src="../01.dom_selector/src/selector.js"></script>
-  <script type="text/javascript" src="../02.CSS_manipulation/src/cssProp.js"></script>
-  <script type="text/javascript" src="../03.CSS_class_manipulation/src/cssClassManipulation.js"></script>
-  <script type="text/javascript" src="../04.DOM_manipulation/src/domManipulation.js"></script>
-  <script type="text/javascript" src="../05.AJAX_Request/src/ajaxRequest.js"></script>
-  <script type="text/javascript" src="../06.event_listeners/src/eventListeners.js"></script>
+    <!-- include previous source files here -->
+    <script
+      type="text/javascript"
+      src="../01.dom_selector/src/selector.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../02.CSS_manipulation/src/cssProp.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../03.CSS_class_manipulation/src/cssClassManipulation.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../04.DOM_manipulation/src/domManipulation.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../05.AJAX_Request/src/ajaxRequest.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../06.event_listeners/src/eventListeners.js"
+    ></script>
 
-  <!-- include source files here... -->
-  <script type="text/javascript" src="src/learnQuery.js"></script>
+    <!-- include source files here... -->
+    <script type="text/javascript" src="src/learnQuery.js"></script>
 
-  <!-- include spec files here... -->
-  <script type="text/javascript" src="spec/learnQuery.js"></script>
+    <!-- include spec files here... -->
+    <script type="text/javascript" src="spec/learnQuery.js"></script>
+    <style>
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.2);
+        transition: box-shadow 0.3s;
+        color: #333333;
+        text-decoration: none;
+        margin-bottom: 25px;
+        margin-right: 25px;
+      }
+      .button:hover {
+        box-shadow: 6px 6px 7px 1px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
 
-</head>
-
-<body>
-</body>
+  <body>
+    <a class="button back" href="/">Back to assignments</a>
+    <a class="button reload" href="#" onclick="window.location.reload();"
+      >Rerun tests (refresh)</a
+    >
+  </body>
 </html>
