@@ -34,9 +34,13 @@ Everything you code goes in the src folder .js file. Keep all your code in the `
 
 The task is considered complete when all the tests are passing.
 
-Every task should be completed in order. Do not skip ahead, as tasks build upon one another
+Every task should be completed in order. Do not skip ahead, as tasks build upon one another.
 
 If you are stuck, either because you don't understand what is asked of you or how to do it, please ask your mentor to help you.
+
+The project has eslint and prettier on it, configured to this company's liking. Please consult with your mentor about setting up your editor environment to support this.
+
+Your finished task sholdn't have any warnings or errors from eslint. This does not mean you just prefix everything with eslint ignores, ask your mentor if you cannot figure out why something is a warning.
 
 # Tasks
 
